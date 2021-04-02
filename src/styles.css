@@ -1,4 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
 body{
-  background-image: url("https://solarsystem.nasa.gov/system/resources/detail_files/496_MilkyWay1200w.jpg")
+    /* background-image: url("https://solarsystem.nasa.gov/system/resources/detail_files/496_MilkyWay1200w.jpg") */
+    background-image: url("https://cdn.wallpapersafari.com/23/81/bhNZYk.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 }

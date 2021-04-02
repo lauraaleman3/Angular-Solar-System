@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Planet} from "../planet";
-import {PLANETS} from './mock-planet';
+import {Planet} from "../planet"
+import {PLANETS} from '../mock-planets'
 
 @Component({
   selector: 'app-planets',
@@ -9,8 +9,19 @@ import {PLANETS} from './mock-planet';
 })
 export class PlanetsComponent implements OnInit {
    planets=PLANETS;
+   selectedplanet?:Planet;
+   selected=false;
   constructor() { }
 
   ngOnInit(): void {
   }
+  onSelect(planet:Planet):void{
+  this.selectedplanet=planet;
+   this.selected=!this.selected;
+}
+onClick():void{
+ 
+  this.selected=!this.selected;
+}
+
 }

@@ -1,0 +1,42 @@
+.orange{
+    background-color: orange;
+    color: black;
+    font-size: 25px;
+    width: 100%;
+    padding:10px;
+}
+.pink{
+    background-color:rgb(214, 32, 123);
+    color: black;
+    font-size: 25px;
+    width: 100%;
+    padding:10px;
+}
+*{
+    color: white;
+    font-size: 20px;
+}
+.grad {
+    background-image: linear-gradient(to right, red,orange,yellow,blue,indigo,violet);
+  }
+  strong{
+    text-shadow:5px 5px 5px yellow;
+  }
+
+  @keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  .animate-area {
+    width: 200px;
+    height: 200px;
+    background-image: url("https://i.pinimg.com/originals/b5/f8/bb/b5f8bb12f307e3f4fb037819f5842480.jpg");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 10s linear infinite alternate;
+  }
+  
